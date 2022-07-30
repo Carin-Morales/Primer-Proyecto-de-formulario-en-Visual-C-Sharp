@@ -40,6 +40,7 @@ namespace semana2_formulario
             nombre4.Text = "Elias Gevarra";
             nombre5.Text = " Isaac Nolasco";
             nombre6.Text = " Cindy Romero ";
+            nombre7.Text = "Farid Claros";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -56,6 +57,12 @@ namespace semana2_formulario
             nombre4.Text = " ";
             nombre5.Text = " ";
             nombre6.Text = " ";
+            nombre7.Text = " ";
+        }  
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
